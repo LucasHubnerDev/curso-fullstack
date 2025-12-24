@@ -10,5 +10,5 @@
 // prompt("seu nome")
 
 // posso guardar o retorno dentro de uma variável
-const nomeUsuario = prompt("qual o seu nome")
-console.log(`${nomeUsuario} entrou no seu site`)
+// const nomeUsuario = prompt("qual o seu nome")
+// console.log(`${nomeUsuario} entrou no seu site`)
