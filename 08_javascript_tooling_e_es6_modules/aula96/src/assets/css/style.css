@@ -1,0 +1,64 @@
+/* Fundo suave em gradiente */
+.app-bg {
+  background: linear-gradient(135deg, #1e1f2b, #2a2d3e);
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* Card principal */
+.password-card {
+  background: #f5f6fa;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 420px;
+  border: none;
+}
+
+/* Título */
+.title {
+  color: #3a3d5c;
+  font-weight: 600;
+}
+
+/* Inputs suaves */
+.soft-input {
+  border-radius: 10px;
+  border: 1px solid #dcdfea;
+  padding: 10px 12px;
+}
+
+.soft-input:focus {
+  border-color: #8f94fb;
+  box-shadow: 0 0 0 0.15rem rgba(143, 148, 251, 0.25);
+}
+
+/* Checkboxes */
+.soft-check .form-check-input {
+  cursor: pointer;
+}
+
+.soft-check .form-check-label {
+  color: #4b4f72;
+}
+
+/* Botão moderno */
+.soft-btn {
+  background: linear-gradient(135deg, #8f94fb, #4e54c8);
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 600;
+  color: #fff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.soft-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(78, 84, 200, 0.35);
+}
+
+/* Erro */
+.error-msg {
+  color: #e05656;
+  font-size: 0.9rem;
+  min-height: 20px;
+}
