@@ -1,0 +1,21 @@
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0d6efd, #6610f2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 1rem;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    #cpf-generated {
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
