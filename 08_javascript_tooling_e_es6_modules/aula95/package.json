@@ -1,8 +1,8 @@
 {
-  "name": "aula93",
+  "name": "aula95",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "webpack -w"
   },
